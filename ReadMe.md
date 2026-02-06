@@ -1,6 +1,13 @@
 Count Elements Greater Than Previous Average
 
+Python specific instructions:
+# Complete the 'countResponseTimeRegressions' function below.
+#
+# The function is expected to return an INTEGER.
+# The function accepts INTEGER_ARRAY responseTimes as parameter.
+#
 
+Printing Vs Returning the result makes a difference to their test harness. Lesson learnt.
 
 Count_Elements_Greater_Than_Previous_Average
 https://www.hackerrank.com/contests/software-engineer-prep-kit/challenges/count-elements-greater-than-previous-average/problem
