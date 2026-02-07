@@ -19,9 +19,11 @@ def countResponseTimeRegressions(responseTimes):
     subtotal = 0
     divisor = 0
     counter = 0
+
     for entry in responseTimes:
         subtotal += int(entry)
         divisor += 1
+        print("Average: ", subtotal // divisor)
         if entry > subtotal // divisor:
             counter += 1
 
